@@ -1,0 +1,26 @@
+#str , string => Metinsel ifadeler için kullanılır. numeric sayıları metine çevirmek içinde kullanılabilir.
+#int, integer => Tam sayılı ifadeler için kullanılır. metinleri sayı haline çevirmek içinde kullanılır.
+#float => Ondalıklı sayılar için kullanılır. 
+#bool => True ve False değerleri kullanılır.
+#list => veri tiplerinde değişkenleri yan yana sıralamak için kullanılabilir. x = [1,2,3,4]
+#tuple => tıpkı list gibi kullanılabilir. y = ("ahmet","veli","davut")
+#dict => Dictionary anlamı katar bazı değişkenleri tanımlamak içinde kullanılabilir.
+#range => genelde for dögülerinde aralık vermek için kullanılır.
+
+Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+--kurs isimlerinin string 
+--eğitmen bölümleri string
+--yorum sayısı integer  şeklinde kullanılmış.
+
+# Giriş ekranı için kullanılabir. 
+# Örnek:
+
+
+userEmail="yasin@gmail.com"
+userPassword="1234"
+email="yasin@gmail.com"
+password="1234"
+if password==userPassword and email==userEmail:
+    print("Giriş başarılı")
+else:
+    print("Giriş başarısız")
