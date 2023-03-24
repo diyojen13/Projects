@@ -1,0 +1,26 @@
+#HTML
+HTML, web sayfalarının temel yapı taşlarından biridir ve web tarayıcıları tarafından yorumlanarak kullanıcılara gösterilir. 
+HTML, metin, resim, video, bağlantılar ve diğer öğeleri içerebilir ve bu öğeleri sayfanın görünümüne göre düzenlemek için kullanılan bir dizi etiket (tag) içerir.
+
+#HTML locators
+HTML Locators, web sayfalarındaki öğeleri bulmak için kullanılan bir dizi tanımlayıcıdır. 
+Bu locators, web sayfalarındaki öğeleri bulmak için test otomasyon araçları tarafından kullanılır.
+
+HTML Locators, öğelerin bulunması için kullanılan tekniklerin adıdır ve bu locators, öğelerin bulunmasında kullanılan farklı yöntemleri ifade eder. 
+En yaygın olarak kullanılan HTML Locators şunlardır:
+
+1 -) ID Locator: Bu Locator, öğelerin benzersiz kimliklerini kullanarak bulunur. ID Locator'lar, öğelerin ID özelliğini kullanır.
+2- ) Name Locator: Bu Locator, öğelerin isimlerini kullanarak bulunur. Name Locator'lar, öğelerin name özelliğini kullanır.
+3- ) Class Locator: Bu Locator, öğelerin sınıf adlarını kullanarak bulunur. Class Locator'lar, öğelerin class özelliğini kullanır.
+4- ) Tag Locator: Bu Locator, öğelerin HTML etiketlerini kullanarak bulunur. Örneğin, bir div etiketini kullanarak div öğeleri bulunabilir.
+5- ) Link Locator: Bu Locator, bağlantıları bulmak için kullanılır. Link Locator'lar, öğelerin href özelliğini kullanır.
+
+#seleniumda aksiyonlar
+Selenium'da aksiyonlar, web sayfalarında gerçekleştirilen işlemleri ifade eder ve test senaryoları oluşturmak için kullanılır. 
+Selenium'da kullanılan bazı aksiyonlar şunlardır:
+
+1- ) Click: Bu aksiyon, web sayfasındaki bir öğeye tıklamak için kullanılır. Örneğin, bir düğmeye tıklamak için click() yöntemi kullanılabilir.
+2- ) Send Keys: Bu aksiyon, web sayfasındaki bir öğeye klavyeden yazı göndermek için kullanılır. Örneğin, bir metin kutusuna yazı göndermek için send_keys() yöntemi kullanılabilir.
+3- ) Select: Bu aksiyon, web sayfasındaki bir liste öğesinden seçim yapmak için kullanılır. Örneğin, bir açılır listeden seçim yapmak için select() yöntemi kullanılabilir.
+4- ) Navigate: Bu aksiyon, web sayfaları arasında gezinmek için kullanılır. Örneğin, bir sayfadan diğerine gitmek için navigate() yöntemi kullanılabilir.
+5- ) Wait: Bu aksiyon, web sayfasının yüklenmesini beklemek için kullanılır. Örneğin, bir öğenin görünür hale gelmesini beklemek için wait() yöntemi kullanılabilir.
